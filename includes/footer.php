@@ -2,7 +2,7 @@
 
 <footer class="py-4 text-center small bg-body-tertiary border-top">
     <div class="container">
-        &copy; <?= data('Y') ?> Vidushan Pathirana
+        &copy; <?= date('Y') ?> Vidushan Pathirana
     </div>
 </footer>
 
