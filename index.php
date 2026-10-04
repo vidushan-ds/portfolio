@@ -13,6 +13,7 @@
             <li><a href="#skill">Skill</a></li>
             <li><a href="#project">Projects</a></li>
             <li><a href="#blog">Blog</a></li>
+            <li><a href="#Education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </div>
     </nav>
