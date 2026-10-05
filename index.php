@@ -8,7 +8,7 @@ include 'includes/header.php';
     <div class="container py-4">
         <p class="text-muted mb-1">Hello, I'm</p>
         <h1 class="display-4 fw-bold">Vidushan Pathirana</h1>
-        <h2 class="h4 text-primary mb-4">Data Science Student &amp; Aspiring ML Engineer</h2>
+        <h2 class="h4 text-accent mb-4">Data Science Student &amp; Aspiring ML Engineer</h2>
 
         <p class="lead col-lg-8">
             I enjoy working with data, solving problems with code, and building
@@ -22,9 +22,9 @@ include 'includes/header.php';
 </section>
 
 <!-- ABOUT PREVIEW -->
-<section class="py-5 bg-body-tertiary">
+<section class="py-5 bg-soft">
     <div class="container">
-        <h2 class="mb-3">A little about me</h2>
+        <h2 class="section-title mb-3">A little about me</h2>
         <p class="col-lg-8">
             I'm a Data Science undergraduate interested in programming, data analysis,
             statistics, machine learning, and software development. I enjoy learning by

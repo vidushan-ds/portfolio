@@ -1,6 +1,6 @@
 </main>
 
-<footer class="py-4 text-center small bg-body-tertiary border-top">
+<footer class="py-4 text-center small bg-soft border-top">
     <div class="container">
         &copy; <?= date('Y') ?> Vidushan Pathirana
     </div>

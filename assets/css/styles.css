@@ -1,3 +1,75 @@
- body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+:root {
+    --main-color: #1F3A5F;     
+    --accent-color: #2A9D8F;   
+    --bg-light: #F4F7FA;        
+    --text-color: #212529;     
+}
+ 
+body {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text-color);
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--main-color);
+    font-weight: 700;
+}
+ 
+a {
+    color: var(--main-color);
+}
+a:hover {
+    color: var(--accent-color);
+}
+ 
+/* NAVBAR */
+.navbar-brand {
+    color: var(--main-color);
+    letter-spacing: 1px;
+}
+.navbar .nav-link:hover {
+    color: var(--accent-color);
+}
+ 
+/* BUTTONS */
+.btn-primary {
+    --bs-btn-bg: var(--main-color);
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-color: #fff;
+    --bs-btn-hover-bg: var(--accent-color);
+    --bs-btn-hover-border-color: var(--accent-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-bg: var(--accent-color);
+    --bs-btn-active-border-color: var(--accent-color);
+    --bs-btn-active-color: #fff;
+}
+ 
+.btn-outline-primary {
+    --bs-btn-color: var(--main-color);
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-hover-bg: var(--main-color);
+    --bs-btn-hover-border-color: var(--main-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-bg: var(--main-color);
+    --bs-btn-active-border-color: var(--main-color);
+    --bs-btn-active-color: #fff;
+}
+ 
+.bg-soft {
+    background-color: var(--bg-light);
+}
+ 
+.text-accent {
+    color: var(--accent-color);
+}
+ 
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
 }
